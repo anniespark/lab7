@@ -11,3 +11,7 @@ $(document).ready(function() {
 function initializePage() {
 	// your code here
 }
+
+$( "button.thumbnail" ).click( {
+	ga("send", "event", 'like', 'click'); 
+}); 
